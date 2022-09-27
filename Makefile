@@ -6,3 +6,5 @@ funciones:
 	g++ funciones.cpp -std=c++17 && ./a.out && rm ./a.out
 matrices:
 	g++ matrices.cpp -std=c++17 && ./a.out && rm ./a.out
+vectores:
+	g++ vectores.cpp -std=c++17 && ./a.out && rm ./a.out
