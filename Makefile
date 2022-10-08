@@ -8,3 +8,5 @@ matrices:
 	g++ matrices.cpp -std=c++17 && ./a.out && rm ./a.out
 vectores:
 	g++ vectores.cpp -std=c++17 && ./a.out && rm ./a.out
+clases:
+	g++ clases.cpp -std=c++17 && ./a.out && rm ./a.out

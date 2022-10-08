@@ -15,6 +15,9 @@ struct persona
     int estatura;   // 4
 
     persona() = default;
+
+    int get_edad() { return edad; }
+    void happy_birthday() { edad++; }
 };
 
 void func_persona_ref(persona& p)
@@ -32,9 +35,21 @@ void func_persona_ptr(persona* p)
 //                   solucion aproximada
 // no resolubles: ...   
 
+// class INT {
+//     int value;
+// };
+
 int main()
 {
+    // INT x = 5;
+    // INT y = x;
+    // INT z;
+
     int a = 5;
+    int b = 1;
+    int c(4);
+    int d = b;
+
     cout << "\tmain() " << &a << " " << a << endl;      // 5
     func_1(a);
     a += 2;
@@ -57,7 +72,7 @@ int main()
     func_4(ptr);
     cout << "\tmain() " << &a << " " << a << endl;      // 27
 
-    persona p1;
+    persona p1, *p2 = nullptr, p3;
     // cout << sizeof(p1) << endl;
     func_persona_ref(p1);
     func_persona_ptr(&p1);
