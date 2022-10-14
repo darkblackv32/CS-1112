@@ -10,3 +10,9 @@ vectores:
 	g++ vectores.cpp -std=c++17 && ./a.out && rm ./a.out
 clases:
 	g++ clases.cpp -std=c++17 && ./a.out && rm ./a.out
+clases_ptr:
+	g++ clases_punteros.cpp -std=c++17 && ./a.out && rm ./a.out
+bombeo:
+	g++ bombeo.cpp -std=c++17 && ./a.out && rm ./a.out
+p3:
+	g++ p3.cpp -std=c++17 && ./a.out && rm ./a.out
