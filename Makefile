@@ -16,3 +16,7 @@ bombeo:
 	g++ bombeo.cpp -std=c++17 && ./a.out && rm ./a.out
 p3:
 	g++ p3.cpp -std=c++17 && ./a.out && rm ./a.out
+herencia:
+	g++ herencia.cpp -std=c++17 && ./a.out && rm ./a.out
+lab205:
+	g++ pc2_205.cpp -std=c++17 && ./a.out && rm ./a.out
