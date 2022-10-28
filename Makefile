@@ -20,3 +20,7 @@ herencia:
 	g++ herencia.cpp -std=c++17 && ./a.out && rm ./a.out
 lab205:
 	g++ pc2_205.cpp -std=c++17 && ./a.out && rm ./a.out
+poli:
+	g++ polimorfismo.cpp -std=c++17 && ./a.out && rm ./a.out
+friend:
+	g++ friend.cpp -std=c++17 && ./a.out && rm ./a.out
