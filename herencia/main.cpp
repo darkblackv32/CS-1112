@@ -1,0 +1,29 @@
+#include <memory>  //-- para usar punteros inteligentes
+#include "UFunciones.h"
+
+int main() {
+    auto pCarne = new CAlimento("Carne",4);
+    auto pVerdura = new CAlimento("Verdura",4);
+
+    shared_ptr<CGallina> pBataraza = make_shared<CGallina>('M',"Perú","Bataraza",5,0);
+    shared_ptr<CPerro> pBoby = make_shared<CPerro>('M',"Perú","Boby",4,0);
+    shared_ptr<CGato> pFelix = make_shared<CGato>('M',"Perú","Felix",4,0);
+    
+    /*auto pFelix = new CGato('M',"Perú","Felix",4,0);
+    auto pBataraza = new CGallina('M',"Perú","Bataraza",5,0);
+    auto pBoby = new CPerro('M',"Perú","Boby",4,0);*/
+    pFelix->Alimentar(cout,pCarne);
+    pFelix->Alimentar(cout,pCarne); 
+    
+    pBoby->Alimentar(cout,pCarne);
+    pBoby->Alimentar(cout,pVerdura);
+    pBoby->Alimentar(cout,pVerdura); 
+    cout<<*pFelix<<endl;
+    cout<<*pBoby<<endl;
+    cout<<*pBataraza<<endl;
+    /*delete pFelix;
+    delete pBoby;
+    delete pBataraza;*/
+    
+    return 0;
+}

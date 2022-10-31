@@ -1,0 +1,2 @@
+herencia:
+	g++ main.cpp Tipos.h UFunciones.h CAlimento.h CAlimento.cpp CAnimal.h CAnimal.cpp CAve.h CAve.cpp CDomestico.h CDomestico.cpp CFelino.h CFelino.cpp CGallina.h CGallina.cpp CGato.h CGato.cpp CMamifero.h CMamifero.cpp CPerro.h CPerro.cpp && ./a.out && rm *.h.gch && rm ./a.out
