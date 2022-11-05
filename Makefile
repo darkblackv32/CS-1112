@@ -26,3 +26,5 @@ friend:
 	g++ friend.cpp -std=c++17 && ./a.out && rm ./a.out
 overload:
 	g++ overload.cpp -std=c++17 && ./a.out && rm ./a.out
+templates:
+	g++ templates.cpp -std=c++17 && ./a.out && rm ./a.out
