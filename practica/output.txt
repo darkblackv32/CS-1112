@@ -1,0 +1,7 @@
+RW- root
+RW- root/folder1
+RW- root/file1 contenido1
+RWX root/file2 contenido2
+RW- root/file3 contenido3
+R-- root/folder2
+--- root/folder3

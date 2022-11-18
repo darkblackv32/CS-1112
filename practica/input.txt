@@ -1,0 +1,8 @@
+D root 1 1 0
+6
+D folder1 1 1 0
+F file1 1 1 0 contenido1
+F file2 1 1 1 contenido2
+F file3 1 1 0 contenido3
+D folder2 1 0 0
+D folder3 0 0 0
